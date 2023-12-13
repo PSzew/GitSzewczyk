@@ -28,7 +28,7 @@ namespace GitSzewczyk
 
         private void Register(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new RegisterPage());
         }
     }
 }
