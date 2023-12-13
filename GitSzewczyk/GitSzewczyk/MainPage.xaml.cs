@@ -20,5 +20,15 @@ namespace GitSzewczyk
             PublicClass.accounts.Add(new Account("Pawel", "123", PublicClass.Clases[1]));
             PublicClass.accounts.Add(new Account("Mari", "321", PublicClass.Clases[2]));
         }
+
+        private void Login(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Register(object sender, EventArgs e)
+        {
+
+        }
     }
 }
