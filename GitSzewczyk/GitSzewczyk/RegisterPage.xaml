@@ -2,20 +2,5 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GitSzewczyk.RegisterPage">
-    <StackLayout Orientation="Vertical">
-        <Label Text="Zarejestruj się"/>
-        <Label Text="Login:"/>
-        <Entry x:Name="LoginTxT"/>
-        <Label Text="Hasło"/>
-        <Entry x:Name="PasswordTxT"
-               IsPassword="True"/>
-        <Label Text="Powtórz Hasło"/>
-        <Entry x:Name="RepeatPasswordTxT"
-               IsPassword="True"/>
-        <Label Text="Wybierz klase"/>
-        <Picker x:Name="picker" ItemDisplayBinding="{Binding Class}">
-        </Picker>
-
-        <Button Clicked="Register"/>
-    </StackLayout>
+    
 </ContentPage>
