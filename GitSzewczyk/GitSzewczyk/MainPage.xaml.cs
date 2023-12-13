@@ -38,6 +38,7 @@ namespace GitSzewczyk
         private void Register(object sender, EventArgs e)
         {
             Navigation.PushAsync(new RegisterPage());
+            Navigation.PushAsync(new RegisterPage());
         }
         protected override void OnAppearing()
         {

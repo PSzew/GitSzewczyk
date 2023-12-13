@@ -2,20 +2,102 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GitSzewczyk.RegisterPage">
-    <StackLayout Orientation="Vertical">
-        <Label Text="Zarejestruj się"/>
-        <Label Text="Login:"/>
-        <Entry x:Name="LoginTxT"/>
-        <Label Text="Hasło"/>
-        <Entry x:Name="PasswordTxT"
-               IsPassword="True"/>
-        <Label Text="Powtórz Hasło"/>
-        <Entry x:Name="RepeatPasswordTxT"
-               IsPassword="True"/>
-        <Label Text="Wybierz klase"/>
-        <Picker x:Name="picker" ItemDisplayBinding="{Binding Class}">
-        </Picker>
+    <Frame Padding="50"
+           Margin="10"
+           BorderColor="LightBlue"
+           CornerRadius="15">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Text="Zaloguj się"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Grid.Row="0"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   TextColor="LightBlue"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+            <Label Text="Login:"
+                   Grid.Column="0"
+                   Grid.Row="1"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   TextColor="LightBlue"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+            <Entry x:Name="LoginTxT"
+                   Grid.Column="1"
+                   Grid.Row="1"
+                   FontSize="25"
+                   FontAttributes="Bold"
+                   TextColor="LightBlue"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="200"/>
+            <Label Text="Hasło:"
+                   Grid.Column="0"
+                   Grid.Row="2"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   TextColor="LightBlue"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+            <Entry x:Name="PasswordTxT"
+                   IsPassword="True"
+                   Grid.Column="1"
+                   Grid.Row="2"
+                   FontSize="25"
+                   FontAttributes="Bold"
+                   TextColor="LightBlue"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="200"/>
+            <Picker x:Name="picker"
+                    Grid.Column="1"
+                    Grid.Row="3"
+                    FontSize="25"
+                   FontAttributes="Bold"
+                   TextColor="LightBlue"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="200/>
+            <Label x:Name="Error" 
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Grid.Row="3"
+                   FontSize="25"
+                   FontAttributes="Bold"
+                   TextColor="DarkRed"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+            <Button Clicked="Register"
+                    Grid.Row="6"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Text="Zarejestruj się"
+                    FontSize="20"
+                    TextColor="LightBlue"
+                    BorderColor="LightBlue"
+                    BorderWidth="5"
+                    CornerRadius="15"
+                    BackgroundColor="White"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+        </Grid>
 
-        <Button Clicked="Register"/>
-    </StackLayout>
+    </Frame>
 </ContentPage>
