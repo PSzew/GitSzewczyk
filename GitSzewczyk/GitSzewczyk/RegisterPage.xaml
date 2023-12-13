@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="GitSzewczyk.MainPage">
-
+             x:Class="GitSzewczyk.RegisterPage">
     <StackLayout Orientation="Vertical">
-        <Label Text="Zaloguj się"/>
+        <Label Text="Zarejestruj się"/>
         <Label Text="Login:"/>
         <Entry x:Name="LoginTxT"/>
         <Label Text="Hasło"/>
         <Entry x:Name="PasswordTxT"
                IsPassword="True"/>
-        <Button Clicked="Login"/>
+        <Label Text="Powtórz Hasło"/>
+        <Entry x:Name="RepeatPasswordTxT"
+               IsPassword="True"/>
         <Button Clicked="Register"/>
     </StackLayout>
-
 </ContentPage>

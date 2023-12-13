@@ -1,26 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace GitSzewczyk
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class UserPage : ContentPage
     {
-        public MainPage()
+        public UserPage()
         {
             InitializeComponent();
         }
 
-        private void Login(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Register(object sender, EventArgs e)
+        private void LogOut(object sender, EventArgs e)
         {
 
         }
