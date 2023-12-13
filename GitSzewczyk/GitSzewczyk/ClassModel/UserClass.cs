@@ -11,6 +11,10 @@ namespace GitSzewczyk.ClassModel
             Class = @class;
             Path = path;
         }
+        public UserClass()
+        {
+            
+        }
 
         public string Class { get; set; }
         public string Path { get; set; }

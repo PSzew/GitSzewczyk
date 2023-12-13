@@ -12,6 +12,10 @@
         <Label Text="Powtórz Hasło"/>
         <Entry x:Name="RepeatPasswordTxT"
                IsPassword="True"/>
+        <Label Text="Wybierz klase"/>
+        <Picker x:Name="picker" ItemDisplayBinding="{Binding Class}">
+        </Picker>
+
         <Button Clicked="Register"/>
     </StackLayout>
 </ContentPage>

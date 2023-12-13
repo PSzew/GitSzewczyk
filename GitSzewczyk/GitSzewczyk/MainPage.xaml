@@ -10,6 +10,7 @@
         <Label Text="Hasło"/>
         <Entry x:Name="PasswordTxT"
                IsPassword="True"/>
+        <Label x:Name="Error"/>
         <Button Clicked="Login"/>
         <Button Clicked="Register"/>
     </StackLayout>
