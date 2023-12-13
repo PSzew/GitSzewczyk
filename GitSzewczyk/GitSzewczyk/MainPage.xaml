@@ -3,16 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GitSzewczyk.MainPage">
 
-    <StackLayout Orientation="Vertical">
-        <Label Text="Zaloguj się"/>
-        <Label Text="Login:"/>
-        <Entry x:Name="LoginTxT"/>
-        <Label Text="Hasło"/>
-        <Entry x:Name="PasswordTxT"
-               IsPassword="True"/>
-        <Label x:Name="Error"/>
-        <Button Clicked="Login"/>
-        <Button Clicked="Register"/>
-    </StackLayout>
+    
 
 </ContentPage>
