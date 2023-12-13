@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitSzewczyk.Android", "GitSzewczyk\GitSzewczyk.Android\GitSzewczyk.Android.csproj", "{BEA3641A-E8FB-4ACA-8CD6-1D480A542C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitSzewczyk", "GitSzewczyk\GitSzewczyk\GitSzewczyk.csproj", "{7C63AF9C-50B8-4908-B3B4-6FF3D65FDE92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEA3641A-E8FB-4ACA-8CD6-1D480A542C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA3641A-E8FB-4ACA-8CD6-1D480A542C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA3641A-E8FB-4ACA-8CD6-1D480A542C7D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BEA3641A-E8FB-4ACA-8CD6-1D480A542C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA3641A-E8FB-4ACA-8CD6-1D480A542C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA3641A-E8FB-4ACA-8CD6-1D480A542C7D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7C63AF9C-50B8-4908-B3B4-6FF3D65FDE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C63AF9C-50B8-4908-B3B4-6FF3D65FDE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C63AF9C-50B8-4908-B3B4-6FF3D65FDE92}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7C63AF9C-50B8-4908-B3B4-6FF3D65FDE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C63AF9C-50B8-4908-B3B4-6FF3D65FDE92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C63AF9C-50B8-4908-B3B4-6FF3D65FDE92}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC76EBBA-D6A4-4505-87B8-391DC0D0FEBA}
+	EndGlobalSection
+EndGlobal
